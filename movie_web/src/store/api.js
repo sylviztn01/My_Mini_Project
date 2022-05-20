@@ -1,7 +1,7 @@
 import axios from "axios";
-const token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMmVjYWZjZmEwYzY5MWRmZjAwZDYzNmQ4ZjEyMGIyMiIsInN1YiI6IjYyNmM5MjYwZWVjNGYzMDBhZTc1MWUyNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.f2igPG1w2A7YPWLqBVt8TcR-uUDXA9RHPrJb-suVdCA";
+const token = "AIzaSyCvpIb-SzGWGXSyigwr3SDi-4MMIv1s6Zo";
 export default axios.create({
-    baseURL: "https://api.themoviedb.org/3",
+    baseURL: "https://www.googleapis.com/auth/books",
     headers: {
         Authorization: `Bearer ${token}`
     }
